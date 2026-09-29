@@ -1,0 +1,31 @@
+# Experiment A configuration reconstructed from the executed notebook.
+model:
+  size: s
+  num_classes: 19
+  augment: true
+data:
+  images_dir: /path/to/leftImg8bit
+  labels_dir: /path/to/gtFine
+  crop_size: [1024, 1024]
+  base_size: 2048
+  scale_factor: 16
+  ignore_label: 255
+training:
+  epochs: 150
+  batch_size: 6
+  val_batch_size: 2
+  workers: 6
+  base_lr: 0.01
+  momentum: 0.9
+  weight_decay: 0.0005
+  seed: 304
+  val_every: 5
+  poly_power: 0.9
+  # The final executed training cell used 150 * iterations_per_epoch.
+  schedule_epochs: 150
+pretrained:
+  # Set to the official PIDNet-S ImageNet checkpoint to reproduce the
+  # ImageNet-initialized path documented in the notebook.
+  imagenet: null
+output:
+  dir: runs/pidnet_s_cityscapes

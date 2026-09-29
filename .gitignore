@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+runs/
+data/leftImg8bit/
+data/gtFine/
+*.pth
+*.pth.tar
+*.pt
+!weights/README.md
+# weights/best.pt is intentionally included in the provided archive; remove it before
+# pushing if your hosting policy or repository size policy requires release assets.
+.ipynb_checkpoints/
+.DS_Store

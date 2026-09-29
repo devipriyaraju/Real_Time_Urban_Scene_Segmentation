@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use the PIDNet method, cite the original PIDNet paper. If you discuss this reproduction, also cite this repository as appropriate."
+title: "PIDNet-S Cityscapes: 150-Epoch Implementation and Reproduction"
+type: software
+version: 1.0.0
+date-released: 2026-09-17
+references:
+  - type: conference-paper
+    title: "PIDNet: A Real-Time Semantic Segmentation Network Inspired by PID Controllers"
+    authors:
+      - family-names: Xu
+        given-names: Jiacong
+      - family-names: Xiong
+        given-names: Zixiang
+      - family-names: Bhattacharyya
+        given-names: Shankar P.
+    year: 2023
+    doi: 10.1109/CVPR52729.2023.01871
+    url: "https://openaccess.thecvf.com/content/CVPR2023/html/Xu_PIDNet_A_Real-Time_Semantic_Segmentation_Network_Inspired_by_PID_Controllers_CVPR_2023_paper.html"

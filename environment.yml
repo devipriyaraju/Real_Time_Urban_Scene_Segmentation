@@ -1,0 +1,15 @@
+name: pidnet-cityscapes
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - pytorch-cuda
+  - numpy
+  - opencv
+  - matplotlib
+  - pyyaml
+  - tqdm

@@ -1,0 +1,17 @@
+ATTRIBUTION AND RIGHTS NOTICE
+
+This repository contains my implementation and reproduction of:
+
+Jiacong Xu, Zixiang Xiong, and Shankar P. Bhattacharyya,
+"PIDNet: A Real-Time Semantic Segmentation Network Inspired by PID Controllers,"
+Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition
+(CVPR), 2023.
+DOI: 10.1109/CVPR52729.2023.01871
+Paper: https://openaccess.thecvf.com/content/CVPR2023/html/Xu_PIDNet_A_Real-Time_Semantic_Segmentation_Network_Inspired_by_PID_Controllers_CVPR_2023_paper.html
+Authors' code: https://github.com/XuJiacong/PIDNet
+
+PIDNet, the PIDNet paper, and third-party materials remain the property of their
+respective authors/rightsholders. This repository does not claim authorship of the
+PIDNet method itself.
+
+My original experiment code, project organization, documentation, and results are covered by the LICENSE in this repository.
