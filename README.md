@@ -349,7 +349,7 @@ See [`docs/REPRODUCTION.md`](docs/REPRODUCTION.md) for additional details.
 
 ## Citation
 
-If this repository is useful in your work, please cite the original PIDNet paper:
+Citing the original PIDNet paper:
 
 ```bibtex
 @inproceedings{xu2023pidnet,
